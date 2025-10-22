@@ -8,7 +8,7 @@ namespace Tyuiu.ZjatkovDV.Sprint3.Task5.V22.Test
         public void CheckCalc()
         {
             var result = new DataService();
-            Assert.Equal(2.991, result.GetSumSumSeries(2, 1, 1, 3, 12));
+            Assert.Equal(68.991, result.GetSumSumSeries(2, 1, 1, 3, 12));
         }
     }
 }

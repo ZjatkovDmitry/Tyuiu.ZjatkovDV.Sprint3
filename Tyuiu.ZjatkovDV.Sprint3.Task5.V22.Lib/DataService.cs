@@ -14,10 +14,10 @@ namespace Tyuiu.ZjatkovDV.Sprint3.Task5.V22.Lib
 
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    subSum += Math.Pow(x, 3) * Math.Sin(k);
+                    subSum += Math.Pow(x, 3) * Math.Sin(k) + 2;
                 }
 
-                sum += subSum + 2;
+                sum += subSum;
             }
 
             return Math.Round(sum, 3);
